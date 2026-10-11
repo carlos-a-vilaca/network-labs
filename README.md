@@ -2,7 +2,9 @@
 
 Laboratórios de redes que vou desenvolvendo durante os meus estudos, feitos em **Cisco Packet Tracer**.
 
-Este repositório serve para documentar o que aprendo: cada laboratório tem a topologia, a configuração feita e as conclusões que tirei.
+Neste repositório documento o que aprendo: cada laboratório inclui a topologia, a configuração 
+que fiz e as conclusões que tirei.
+
 
 ## 📚 O que vais encontrar aqui
 
