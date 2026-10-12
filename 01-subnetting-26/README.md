@@ -21,27 +21,28 @@ Máscara: 255.255.255.192 (/26). Cada bloco tem 64 endereços (2⁶), dos quais 
 
 ### Topologia
 
-![Topologia](01-subnetting-26/imagens/topologia.png)
+![Topologia](imagens/topologia.png)
 
 ### Configuração IP (exemplo: PC4)
 
-![IP do PC4](01-subnetting-26/imagens/ip-pc4.png)
+![IP do PC4](imagens/ip-pc4.png)
 
 ### Testes de conectividade
 
-![Ping do PC4](01-subnetting-26/imagens/ping-pc4.png)
+![Ping do PC4](imagens/ping-pc4.png)
 
 - Ping dentro da mesma rede (.66 e .68): **funciona**.
 - Ping para outras redes (.129 e .1): **falha**, porque não há router nem gateway configurado.
 
 ### O que aprendi
 
-(escreve aqui, por palavras tuas, porque é que o PC4 não chega às outras redes)
+Aprendi que ao dividir uma rede em sub-redes, cada uma fica isolada das outras: os dispositivos só 
+comunicam diretamente com os da sua própria sub-rede (por exemplo, o mesmo departamento ou sala). 
+Para comunicarem com outra sub-rede, o tráfego tem de passar por um router, e foi por isso que
+os pings do PC4 para outras redes falharam. Em cibersegurança, isto é útil porque permite
+segmentar a rede e controlar o que passa entre departamentos (com ACLs ou firewalls), 
+limitando a propagação de um ataque.
 
 Ficheiro do Packet Tracer: [`subnetting-26.pkt`](01-subnetting-26/subnetting-26.pkt)
 
 ---
-
-## 02 - Subnetting /25
-
-Em preparação.
